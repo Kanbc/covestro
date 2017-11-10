@@ -1,0 +1,88 @@
+/* App Config */
+
+.at-popover__title {
+    font-size: 18px;
+}
+
+.at-popover__content {
+    font-size: 16px;
+}
+
+.at-popover__content img {
+    width: 100%;
+}
+
+
+/* New Element */
+
+#app1 {
+    display: inline-block;
+    /* position: relative; */
+    height: 50%;
+    width: 49%;
+    padding-top: 200px;
+    padding-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#app1 button {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 0px;
+}
+
+#app2 {
+    display: inline-block;
+    /* position: relative; */
+    height: 50%;
+    width: 49%;
+    padding-top: 200px;
+    padding-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#app2 button {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 0px;
+}
+
+#app3 {
+    display: inline-block;
+    /* position: relative; */
+    height: 50%;
+    width: 49%;
+    padding-top: 200px;
+    padding-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#app3 button {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 0px;
+}
+
+#app4 {
+    display: inline-block;
+    /* position: relative; */
+    height: 50%;
+    width: 49%;
+    padding-top: 200px;
+    padding-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#app4 button {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 0px;
+}
