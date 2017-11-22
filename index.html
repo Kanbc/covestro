@@ -1,52 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
     <title>Covestro</title>
-    <!-- style -->
-    <link rel="stylesheet" href="node_modules/at-ui/src/stylesheet/css/at.min.css">
+    <!-- Style -->
     <link rel="stylesheet" href="css/app.css">
-
-    <!-- script -->
-    <script src="node_modules/vue/dist/vue.js"></script>
-    <!-- <script src="node_modules/vue/dist/vue.min.js"></script> -->
-    <script src="node_modules/at-ui/dist/at.min.js"></script>
 </head>
 
 <body>
     <div id="background">
-        <div id="app1">
-            <at-popover title="Rafael Nadal" content="<img src='http://e2.365dm.com/17/03/16-9/20/skysports-rafael-nadal-tennis-miami_3917972.jpg?20170327142845'> Rafael 'Rafa' Nadal Parera is a Spanish professional tennis player, currently ranked world No. 1 in men's singles. Known as 'The King of Clay', he is widely regarded as the greatest clay-court player in history."
-                placement="right">
-                <at-button type="primary" circle>1</at-button>
-            </at-popover>
+        <button id="btn1" class="btn" >1</button>
+        <div class="covestro-popup" id="popup-template1">
+            <div class="close" >
+                <!-- close -->
+                <img src='img/close.png' id="close1" onclick="closePop1()">
+            </div>
+            <div id="title">
+                <!-- title -->
+                Macbook Pro Retina 2015
+            </div>
+            <div id="image">
+                <!-- image -->
+                <img src='img/s-macbook.png'>
+            </div>
+            <div id="description">
+                <!-- description -->
+                Roger Federer is a Swiss professional tennis player who is currently ranked world No. 2 in men's singles tennis by the Association of Tennis Professionals.
+            </div>
         </div>
 
-        <div id="app2">
-            <at-popover title="Roger Federer" content="<img src='https://studybreaks.com/wp-content/uploads/2017/07/Roger-Federer.jpg'> Roger Federer is a Swiss professional tennis player who is currently ranked world No. 2 in men's singles tennis by the Association of Tennis Professionals."
-                placement="bottom">
-                <at-button type="primary" circle>2</at-button>
-            </at-popover>
-        </div>
 
-        <div id="app3">
-            <at-popover title="Novak Djokovic" content="<img src='https://cdn.images.express.co.uk/img/dynamic/72/590x/Novak-Djokovic-802985.jpg'> Novak Djokovic is a Serbian professional tennis player widely regarded as one of the greatest tennis players of all time.">
-                <at-button type="primary" circle>3</at-button>
-            </at-popover>
-        </div>
-
-        <div id="app4">
-            <at-popover title="Andy Murray" content="<img src='https://images.celebfamily.com/wp-content/uploads/2016/06/Andy-Murray-Career.jpg'> Sir Andrew Barron Murray, OBE is a British professional tennis player from Scotland currently ranked world no. 3 in men's singles."
-                placement="top">
-                <at-button type="primary" circle>4</at-button>
-            </at-popover>
-        </div>
     </div>
-    
-    <!-- script -->
+
+
+    <!-- Script -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="node_modules/tippy.js/dist/tippy.all.min.js"></script>
     <script src="js/app.js"></script>
 </body>
-
 </html>

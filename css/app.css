@@ -1,94 +1,72 @@
-/* App Config */
 #background{
-    background-image: url("../img/covestro.jpg");
+	background-image: url("../img/covestro.jpg");
     background-size: 100% auto;
     width: 1920px;
     height: 1080px;
 }
-
-.at-popover__title {
-    font-size: 18px;
+/*===========Popup===========*/
+.covestro-popup{
+	position: relative;
+	max-width: 400px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+}
+.covestro-popup .close img{
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -25px;
+    top: -40px;
+    cursor: pointer;
+    -webkit-filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, .3));
+    filter:         drop-shadow(1px 2px 4px rgba(0, 0, 0, .3));
+}
+.covestro-popup #title{
+	color: #000000;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.covestro-popup #description{
+	color: #000000;
+	text-align: left;
+	margin: 20px 10px 40px 10px;
+}
+.covestro-popup #image img{
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 20px;
+	background-color: #ffffff;
 }
 
-.at-popover__content {
-    font-size: 16px;
+/*===========Theme============*/
+.tippy-tooltip.covestro-theme {
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+}
+.tippy-tooltip.covestro-theme #title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.tippy-tooltip.covestro-theme #description {
+	font-size: 1em;
+	line-height: 1.3em;
 }
 
-.at-popover__content img {
-    width: 100%;
-}
-
-
-/* New Element */
-
-#app1 {
-    display: inline-block;
-    /* position: relative; */
-    height: 50%;
-    width: 49%;
-    padding-top: 200px;
-    padding-left: 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-#app1 button {
-    border-radius: 50%;
-    width: 34px;
-    height: 34px;
+/*==========Button=========*/
+.btn{
+	border-radius: 50%;
+    width: 45px;
+    height: 45px;
     padding: 0px;
+    cursor: pointer;
+}
+#btn1{
+	position: absolute;
+	top: 350px;
+	left: 775px;
 }
 
-#app2 {
-    display: inline-block;
-    /* position: relative; */
-    height: 50%;
-    width: 49%;
-    padding-top: 200px;
-    padding-left: 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-#app2 button {
-    border-radius: 50%;
-    width: 34px;
-    height: 34px;
-    padding: 0px;
-}
-
-#app3 {
-    display: inline-block;
-    /* position: relative; */
-    height: 50%;
-    width: 49%;
-    padding-top: 200px;
-    padding-left: 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-#app3 button {
-    border-radius: 50%;
-    width: 34px;
-    height: 34px;
-    padding: 0px;
-}
-
-#app4 {
-    display: inline-block;
-    /* position: relative; */
-    height: 50%;
-    width: 49%;
-    padding-top: 200px;
-    padding-left: 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-#app4 button {
-    border-radius: 50%;
-    width: 34px;
-    height: 34px;
-    padding: 0px;
-}

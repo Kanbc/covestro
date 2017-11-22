@@ -1,0 +1,23 @@
+{
+  "name": "covestro",
+  "version": "1.0.0",
+  "description": "Single-Page Application that represents the product in the form of 2D graphics.",
+  "main": "index.js",
+  "dependencies": {
+    "tippy.js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kanbc/covestro.git"
+  },
+  "author": "Kanbc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kanbc/covestro/issues"
+  },
+  "homepage": "https://github.com/Kanbc/covestro#readme"
+}
