@@ -3,7 +3,8 @@ body {
 }
 
 #background {
-    background-image: url("../img/covestro.jpg");
+    /* background-image: url("../img/background.jpg"); */
+    background-image: url("../img/background_no_obj.jpg");
     background-size: 100% auto;
     background-position: center;
     width: 1920px;
@@ -96,9 +97,8 @@ body {
     cursor: pointer;
     position: absolute;
     font-size: 1.1em;
-    background-color: rgba(149, 165, 166, 1.0);
+    background-color: rgba(149, 165, 166, 0.8);
     color: #ffffff;
-    /*background-color: #ffffff;*/
 }
 
 #btn1 {
@@ -107,13 +107,13 @@ body {
 }
 
 #btn2 {
-    top: 579px;
-    left: 354px;
+    top: 585px;
+    left: 398px;
 }
 
 #btn3 {
-    top: 125px;
-    left: 1285px;
+    top: 126px;
+    left: 1152px;
 }
 
 #btn4 {
@@ -122,28 +122,28 @@ body {
 }
 
 #btn5 {
-    top: 276px;
+    top: 275px;
     left: 1228px;
 }
 
 #btn6 {
     top: 720px;
-    left: 585px;
+    left: 586px;
 }
 
 #btn7 {
-    top: 948px;
-    left: 755px;
+    top: 893px;
+    left: 766px;
 }
 
 #btn8 {
     top: 325px;
-    left: 1560px;
+    left: 1561px;
 }
 
 #btn9 {
-    top: 772px;
-    left: 359px;
+    top: 585px;
+    left: 205px;
 }
 
 #btn10 {
@@ -176,14 +176,10 @@ body {
     left: 670px;
 }
 
-
-/**********/
-
-
-/*#btn16{
-	top: 50px;
-	left: 50px;
-}*/
+#btn16{
+    top: 913px;
+    left: 670px;
+}
 
 #btn17 {
     top: 557px;
@@ -196,39 +192,51 @@ body {
 }
 
 #btn19 {
-    top: 870px;
+    top: 873px;
     left: 925px;
+}
+
+#btn20 {
+    top: 358px;
+    left: 1185px;
+}
+#btn27 {
+    top: 397px;
+    left: 1276px;
 }
 
 
 /*****25******/
-
 #btn25 {
     top: 855px;
     left: 80px;
 }
-
+#btn26 {
+    top: 890px;
+    left: 420px;
+}
 #btn21 {
-    top: 950px;
-    left: 1580px;
+    top: 962px;
+    left: 1569px;
 }
 
 
-/*-----24-----*/
-
-#btn24 {
-    top: 845px;
-    left: 290px;
+/*-----22-----*/
+#btn22 {
+    top: 867px;
+    left: 1485px;
 }
-
 #btn23 {
     top: 950px;
-    left: 1430px;
+    left: 1443px;
+}
+#btn24 {
+    top: 846px;
+    left: 291px;
 }
 
 
 /*==========Object=========*/
-
 .covestro-object {
     position: relative;
     display: flex;
@@ -255,11 +263,3 @@ body {
     top: 960px;
     left: 1625px;
 }
-
-
-/* 
-#object-template21 img {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-} */

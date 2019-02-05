@@ -328,27 +328,27 @@ function closePop15() {
     document.querySelector('#btn15')._tippy.hide(75)
 }
 
-// // Popup 16
-// var template1 = document.querySelector('#popup-template16') 
-// var htmlTip1  = tippy('#btn16',{
-//                     html: template1,
-//                     placement: 'bottom',
-//                     animation: 'fade',
-//                     animateFill: false,
-//                     duration: [300,100],
-//                     arrow: false,
-//                     trigger:'click',
-//                     interactive: true,
-//                     distance:10,
-//                     maxWidth: '500px',
-//                     interactiveBorder: 0,
-//                     theme: 'covestro',
-//                 });
+// Popup 16
+var template1 = document.querySelector('#popup-template16') 
+var htmlTip1  = tippy('#btn16',{
+                    html: template1,
+                    placement: 'bottom',
+                    animation: 'fade',
+                    animateFill: false,
+                    duration: [300,100],
+                    arrow: false,
+                    trigger:'click',
+                    interactive: true,
+                    distance:10,
+                    maxWidth: '500px',
+                    interactiveBorder: 0,
+                    theme: 'covestro',
+                });
 
-// // Close Button 1
-// function closePop16(){
-//     document.querySelector('#btn16')._tippy.hide(75)
-// }
+// Close Button 1
+function closePop16(){
+    document.querySelector('#btn16')._tippy.hide(75)
+}
 
 // Popup 17
 var template1 = document.querySelector('#popup-template17')
@@ -416,6 +416,51 @@ function closePop19() {
     document.querySelector('#btn19')._tippy.hide(75)
 }
 
+
+// Popup 20
+var template1 = document.querySelector('#popup-template20')
+var htmlTip1 = tippy('#btn20', {
+    html: template1,
+    placement: 'bottom',
+    animation: 'fade',
+    animateFill: false,
+    duration: [300, 100],
+    arrow: false,
+    trigger: 'click',
+    interactive: true,
+    distance: 10,
+    maxWidth: '500px',
+    interactiveBorder: 0,
+    theme: 'covestro',
+});
+
+// Close Button 1
+function closePop20() {
+    document.querySelector('#btn20')._tippy.hide(75)
+}
+
+// Popup 27
+var template1 = document.querySelector('#popup-template27')
+var htmlTip1 = tippy('#btn27', {
+    html: template1,
+    placement: 'bottom',
+    animation: 'fade',
+    animateFill: false,
+    duration: [300, 100],
+    arrow: false,
+    trigger: 'click',
+    interactive: true,
+    distance: 10,
+    maxWidth: '500px',
+    interactiveBorder: 0,
+    theme: 'covestro',
+});
+
+// Close Button 1
+function closePop27() {
+    document.querySelector('#btn27')._tippy.hide(75)
+}
+
 // Popup 25
 var template1 = document.querySelector('#popup-template25')
 var htmlTip1 = tippy('#btn25', {
@@ -436,6 +481,28 @@ var htmlTip1 = tippy('#btn25', {
 // Close Button 1
 function closePop25() {
     document.querySelector('#btn25')._tippy.hide(75)
+}
+
+// Popup 26
+var template1 = document.querySelector('#popup-template26')
+var htmlTip1 = tippy('#btn26', {
+    html: template1,
+    placement: 'bottom',
+    animation: 'fade',
+    animateFill: false,
+    duration: [300, 100],
+    arrow: false,
+    trigger: 'click',
+    interactive: true,
+    distance: 10,
+    maxWidth: '500px',
+    interactiveBorder: 0,
+    theme: 'covestro',
+});
+
+// Close Button 1
+function closePop26() {
+    document.querySelector('#btn26')._tippy.hide(75)
 }
 
 // Popup 21
@@ -513,4 +580,26 @@ var htmlTip1 = tippy('#btn23', {
 // Close Button 1
 function closePop23() {
     document.querySelector('#btn23')._tippy.hide(75)
+}
+
+// Popup 22
+var template1 = document.querySelector('#popup-template22')
+var htmlTip1 = tippy('#btn22', {
+    html: template1,
+    placement: 'bottom',
+    animation: 'fade',
+    animateFill: false,
+    duration: [300, 100],
+    arrow: false,
+    trigger: 'click',
+    interactive: true,
+    distance: 10,
+    maxWidth: '500px',
+    interactiveBorder: 0,
+    theme: 'covestro',
+});
+
+// Close Button 1
+function closePop22() {
+    document.querySelector('#btn22')._tippy.hide(75)
 }
