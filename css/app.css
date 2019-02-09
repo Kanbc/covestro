@@ -13,10 +13,9 @@ body {
 
 
 /*===========Popup===========*/
-
 .covestro-popup {
     position: relative;
-    max-width: 400px;
+    max-width: 550px;
     border-radius: 20px;
     background-color: #ffffff;
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
@@ -36,13 +35,13 @@ body {
 .covestro-popup #title {
     color: #000000;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .covestro-popup #description {
     color: #000000;
     text-align: left;
-    margin: 20px 10px 40px 10px;
+    margin: 40px 10px 40px 10px;
 }
 
 .covestro-popup #image img {
@@ -50,16 +49,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border-radius: 20px;
     background-color: #ffffff;
 }
 
 
 /*===========Theme============*/
-
-
 /* covestro */
-
 .tippy-tooltip.covestro-theme {
     background-color: #ffffff;
     border-radius: 20px;
@@ -87,7 +82,6 @@ body {
 
 
 /*==========Button=========*/
-
 .btn {
     border: none;
     border-radius: 50%;
