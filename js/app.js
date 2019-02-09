@@ -722,19 +722,19 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
     $("#btn15").hover(function () {
-        $("#object-template15 .show").css("visibility", "hidden");
+        $("#object-template13 .show").css("visibility", "hidden");
         $("#object-template15 .hide").css("visibility", "visible");
     }, function () {
-        $("#object-template15 .show").css("visibility", "visible");
+        $("#object-template13 .show").css("visibility", "visible");
         $("#object-template15 .hide").css("visibility", "hidden");
     });
 });
 $(document).ready(function () {
     $("#btn16").hover(function () {
-        $("#object-template16 .show").css("visibility", "hidden");
+        $("#object-template13 .show").css("visibility", "hidden");
         $("#object-template16 .hide").css("visibility", "visible");
     }, function () {
-        $("#object-template16 .show").css("visibility", "visible");
+        $("#object-template13 .show").css("visibility", "visible");
         $("#object-template16 .hide").css("visibility", "hidden");
     });
 });
