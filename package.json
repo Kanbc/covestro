@@ -4,11 +4,13 @@
   "description": "Single-Page Application that represents the product in the form of 2D graphics.",
   "main": "index.js",
   "dependencies": {
+    "reload": "^2.4.0",
     "tippy.js": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reload": "reload -b"
   },
   "repository": {
     "type": "git",
