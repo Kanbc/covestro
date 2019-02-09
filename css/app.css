@@ -25,8 +25,8 @@ body {
     width: 40px;
     height: 40px;
     position: absolute;
-    right: -25px;
-    top: -40px;
+    right: -20px;
+    top: -50px;
     cursor: pointer;
     -webkit-filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, .3));
     filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, .3));
@@ -93,6 +93,7 @@ body {
     font-size: 1.1em;
     background-color: rgba(149, 165, 166, 0.8);
     color: #ffffff;
+    z-index: 9999;
 }
 
 #btn1 {
@@ -252,8 +253,138 @@ body {
     text-align: center;
 }
 
+#object-template1 {
+    width: 100px;
+    top: 327px;
+    left: 753px;
+}
+#object-template2 {
+    width: 150px;
+    top: 637px;
+    left: 331px;
+}
+#object-template3 {
+    width: 240px;
+    top: 166px;
+    left: 1222px;
+}
+#object-template4 {
+    width: 267px;
+    top: 825px;
+    left: 1329px;
+}
+#object-template5 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template6 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template7 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template8 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template9 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template10 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template11 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template12 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template13 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template14 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template15 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template16 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template17 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template18 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template19 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template20 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
 #object-template21 {
-    max-width: 100px;
-    top: 960px;
-    left: 1625px;
+    width: 225px;
+    top: 909px;
+    left: 883px;
+}
+#object-template22 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template23 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template24 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template25 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template26 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
+}
+#object-template27 {
+    width: 118px;
+    top: 352px;
+    left: 1239px;
 }

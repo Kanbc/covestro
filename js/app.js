@@ -521,17 +521,6 @@ var htmlTip1 = tippy('#btn21', {
     interactiveBorder: 0,
     theme: 'covestro',
 });
-// Object 21
-$(document).ready(function() {
-    $("#btn21").hover(function() {
-        $("#object-template21 .show").css("visibility", "hidden");
-        $("#object-template21 .hide").css("visibility", "visible");
-    }, function() {
-        $("#object-template21 .show").css("visibility", "visible");
-        $("#object-template21 .hide").css("visibility", "hidden");
-    });
-});
-
 
 // Close Button 1
 function closePop21() {
@@ -603,3 +592,248 @@ var htmlTip1 = tippy('#btn22', {
 function closePop22() {
     document.querySelector('#btn22')._tippy.hide(75)
 }
+
+// ----- Object ------
+$(document).ready(function () {
+    $("#btn1").hover(function () {
+        $("#object-template1 .show").css("visibility", "hidden");
+        $("#object-template1 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template1 .show").css("visibility", "visible");
+        $("#object-template1 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn2").hover(function () {
+        $("#object-template2 .show").css("visibility", "hidden");
+        $("#object-template2 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template2 .show").css("visibility", "visible");
+        $("#object-template2 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn3").hover(function () {
+        $("#object-template3 .show").css("visibility", "hidden");
+        $("#object-template3 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template3 .show").css("visibility", "visible");
+        $("#object-template3 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn4").hover(function () {
+        $("#object-template4 .show").css("visibility", "hidden");
+        $("#object-template4 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template4 .show").css("visibility", "visible");
+        $("#object-template4 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn5").hover(function () {
+        $("#object-template5 .show").css("visibility", "hidden");
+        $("#object-template5 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template5 .show").css("visibility", "visible");
+        $("#object-template5 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn6").hover(function () {
+        $("#object-template6 .show").css("visibility", "hidden");
+        $("#object-template6 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template6 .show").css("visibility", "visible");
+        $("#object-template6 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn7").hover(function () {
+        $("#object-template7 .show").css("visibility", "hidden");
+        $("#object-template7 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template7 .show").css("visibility", "visible");
+        $("#object-template7 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn8").hover(function () {
+        $("#object-template8 .show").css("visibility", "hidden");
+        $("#object-template8 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template8 .show").css("visibility", "visible");
+        $("#object-template8 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn9").hover(function () {
+        $("#object-template9 .show").css("visibility", "hidden");
+        $("#object-template9 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template9 .show").css("visibility", "visible");
+        $("#object-template9 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn10").hover(function () {
+        $("#object-template10 .show").css("visibility", "hidden");
+        $("#object-template10 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template10 .show").css("visibility", "visible");
+        $("#object-template10 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn11").hover(function () {
+        $("#object-template11 .show").css("visibility", "hidden");
+        $("#object-template11 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template11 .show").css("visibility", "visible");
+        $("#object-template11 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn12").hover(function () {
+        $("#object-template12 .show").css("visibility", "hidden");
+        $("#object-template12 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template12 .show").css("visibility", "visible");
+        $("#object-template12 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn13").hover(function () {
+        $("#object-template13 .show").css("visibility", "hidden");
+        $("#object-template13 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template13 .show").css("visibility", "visible");
+        $("#object-template13 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn14").hover(function () {
+        $("#object-template14 .show").css("visibility", "hidden");
+        $("#object-template14 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template14 .show").css("visibility", "visible");
+        $("#object-template14 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn15").hover(function () {
+        $("#object-template15 .show").css("visibility", "hidden");
+        $("#object-template15 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template15 .show").css("visibility", "visible");
+        $("#object-template15 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn16").hover(function () {
+        $("#object-template16 .show").css("visibility", "hidden");
+        $("#object-template16 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template16 .show").css("visibility", "visible");
+        $("#object-template16 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn17").hover(function () {
+        $("#object-template17 .show").css("visibility", "hidden");
+        $("#object-template17 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template17 .show").css("visibility", "visible");
+        $("#object-template17 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn18").hover(function () {
+        $("#object-template18 .show").css("visibility", "hidden");
+        $("#object-template18 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template18 .show").css("visibility", "visible");
+        $("#object-template18 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn19").hover(function () {
+        $("#object-template19 .show").css("visibility", "hidden");
+        $("#object-template19 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template19 .show").css("visibility", "visible");
+        $("#object-template19 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn20").hover(function () {
+        $("#object-template20 .show").css("visibility", "hidden");
+        $("#object-template20 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template20 .show").css("visibility", "visible");
+        $("#object-template20 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn21").hover(function () {
+        $("#object-template21 .show").css("visibility", "hidden");
+        $("#object-template21 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template21 .show").css("visibility", "visible");
+        $("#object-template21 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn22").hover(function () {
+        $("#object-template22 .show").css("visibility", "hidden");
+        $("#object-template22 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template22 .show").css("visibility", "visible");
+        $("#object-template22 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn23").hover(function () {
+        $("#object-template23 .show").css("visibility", "hidden");
+        $("#object-template23 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template23 .show").css("visibility", "visible");
+        $("#object-template23 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn24").hover(function () {
+        $("#object-template24 .show").css("visibility", "hidden");
+        $("#object-template24 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template24 .show").css("visibility", "visible");
+        $("#object-template24 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn25").hover(function () {
+        $("#object-template25 .show").css("visibility", "hidden");
+        $("#object-template25 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template25 .show").css("visibility", "visible");
+        $("#object-template25 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn26").hover(function () {
+        $("#object-template26 .show").css("visibility", "hidden");
+        $("#object-template26 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template26 .show").css("visibility", "visible");
+        $("#object-template26 .hide").css("visibility", "hidden");
+    });
+});
+$(document).ready(function () {
+    $("#btn27").hover(function () {
+        $("#object-template27 .show").css("visibility", "hidden");
+        $("#object-template27 .hide").css("visibility", "visible");
+    }, function () {
+        $("#object-template27 .show").css("visibility", "visible");
+        $("#object-template27 .hide").css("visibility", "hidden");
+    });
+});
