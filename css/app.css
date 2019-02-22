@@ -1,12 +1,18 @@
 body {
     margin: 0;
 }
+#outer-box{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
 
 #background {
     /* background-image: url("../img/background.jpg"); */
     background-image: url("../img/background_no_obj.jpg");
     background-size: 100% auto;
     background-position: center;
+    background-repeat: no-repeat;
     width: 1920px;
     height: 1080px;
 }
@@ -211,8 +217,8 @@ body {
     left: 420px;
 }
 #btn21 {
-    top: 962px;
-    left: 1569px;
+    top: 1003px;
+    left: 1015px;
 }
 
 
@@ -226,7 +232,7 @@ body {
     left: 1443px;
 }
 #btn24 {
-    top: 846px;
+    top: 789px;
     left: 291px;
 }
 
@@ -264,9 +270,9 @@ body {
     left: 331px;
 }
 #object-template3 {
-    width: 240px;
+    width: 214px;
     top: 166px;
-    left: 1222px;
+    left: 1233px;
 }
 #object-template4 {
     width: 267px;
@@ -282,6 +288,9 @@ body {
     width: 145px;
     top: 763px;
     left: 613px;
+}
+#object-template6 .hide{
+    width: 157px;
 }
 #object-template7 {
     width: 100px;
@@ -307,6 +316,11 @@ body {
     width: 252px;
     top: 611px;
     left: 702px;
+}
+#object-template11 .hide{
+    width: 286px;
+    top: -151px;
+    left: -15px;
 }
 #object-template12 {
     width: 33px;
@@ -338,6 +352,11 @@ body {
     top: 640px;
     left: 1149px;
 }
+#object-template17 .hide{
+    width: 145px;
+    top: -117px;
+    left: 50;
+}
 #object-template18 {
     width: 33px;
     top: 588px;
@@ -349,20 +368,31 @@ body {
     left: 899px;
     z-index: 10;
 }
+#object-template19 .hide{
+    width: 218px;
+}
 #object-template20 {
     width: 65px;
     top: 411px;
     left: 1147px;
 }
 #object-template21 {
-    width: 225px;
-    top: 909px;
-    left: 883px;
+    width: 160px;
+    top: 907px;
+    left: 915px;
+    
+}
+#object-template21 .hide{
+    width: 135px;
 }
 #object-template22 {
     width: 223px;
     top: 924px;
     left: 1449px;
+}
+#object-template22 .hide{
+    width: 103px;
+    left: 57px;
 }
 #object-template23 {
     width: 71px;
