@@ -4,35 +4,36 @@ body {
 #outer-box{
     position: relative;
     width: 100%;
+    height: calc(1080*100vw/1920);
     overflow: hidden;
 }
 
 #background {
     /* background-image: url("../img/background.jpg"); */
     background-image: url("../img/background_no_obj.jpg");
-    background-size: 100% auto;
-    background-position: center;
+    background-size: contain;
+    background-position: top;
     background-repeat: no-repeat;
-    width: 1920px;
-    height: 1080px;
+    width: 100%;
+    height: calc(1080*100vw/1920);
 }
 
 
 /*===========Popup===========*/
 .covestro-popup {
     position: relative;
-    max-width: 550px;
-    border-radius: 20px;
+    /* height: calc(550*100vw/1920); */
+    border-radius: calc(20*100vw/1920);
     background-color: #ffffff;
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
 }
 
 .covestro-popup .close img {
-    width: 40px;
-    height: 40px;
+    width: calc(40*100vw/1920);
+    height: calc(40*100vw/1920);
     position: absolute;
-    right: -20px;
-    top: -50px;
+    right: calc(-20*100vw/1920);
+    top: calc(-50*100vw/1920);
     cursor: pointer;
     -webkit-filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, .3));
     filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, .3));
@@ -40,18 +41,17 @@ body {
 
 .covestro-popup #title {
     color: #000000;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin: calc(30*100vw/1920) calc(10*100vw/1920) calc(40*100vw/1920) calc(10*100vw/1920);
 }
 
 .covestro-popup #description {
     color: #000000;
     text-align: left;
-    margin: 40px 10px 40px 10px;
+    margin: calc(40*100vw/1920) calc(10*100vw/1920) calc(40*100vw/1920) calc(10*100vw/1920);
 }
 
 .covestro-popup #image img {
-    height: 80px;
+    height: calc(80*100vw/1920);
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -63,18 +63,18 @@ body {
 /* covestro */
 .tippy-tooltip.covestro-theme {
     background-color: #ffffff;
-    border-radius: 20px;
+    border-radius: calc(20*100vw/1920);
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
 }
 
 .tippy-tooltip.covestro-theme #title {
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: calc(22*100vw/1920);
 }
 
 .tippy-tooltip.covestro-theme #description {
-    font-size: 1em;
-    line-height: 1.3em;
+    font-size: calc(16*100vw/1920);
+    line-height: calc(20*100vw/1920);
 }
 
 
@@ -91,149 +91,149 @@ body {
 .btn {
     border: none;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: calc(45*100vw/1920);
+    height: calc(45*100vw/1920);
     padding: 0px;
     cursor: pointer;
     position: absolute;
-    font-size: 1.1em;
+    font-size: calc(18*100vw/1920);
     background-color: rgba(149, 165, 166, 0.8);
     color: #ffffff;
     z-index: 9999;
 }
 
 #btn1 {
-    top: 340px;
-    left: 770px;
+    top: calc(340*100vw/1920);
+    left: calc(770*100vw/1920);
 }
 
 #btn2 {
-    top: 585px;
-    left: 398px;
+    top: calc(585*100vw/1920);
+    left: calc(398*100vw/1920);
 }
 
 #btn3 {
-    top: 126px;
-    left: 1152px;
+    top: calc(126*100vw/1920);
+    left: calc(1152*100vw/1920);
 }
 
 #btn4 {
-    top: 738px;
-    left: 1523px;
+    top: calc(738*100vw/1920);
+    left: calc(1523*100vw/1920);
 }
 
 #btn5 {
-    top: 275px;
-    left: 1228px;
+    top: calc(275*100vw/1920);
+    left: calc(1228*100vw/1920);
 }
 
 #btn6 {
-    top: 720px;
-    left: 586px;
+    top: calc(720*100vw/1920);
+    left: calc(586*100vw/1920);
 }
 
 #btn7 {
-    top: 893px;
-    left: 766px;
+    top: calc(893*100vw/1920);
+    left: calc(766*100vw/1920);
 }
 
 #btn8 {
-    top: 325px;
-    left: 1561px;
+    top: calc(325*100vw/1920);
+    left: calc(1561*100vw/1920);
 }
 
 #btn9 {
-    top: 585px;
-    left: 205px;
+    top: calc(585*100vw/1920);
+    left: calc(205*100vw/1920);
 }
 
 #btn10 {
-    top: 85px;
-    left: 91px;
+    top: calc(85*100vw/1920);
+    left: calc(91*100vw/1920);
 }
 
 #btn11 {
-    top: 535px;
-    left: 781px;
+    top: calc(535*100vw/1920);
+    left: calc(781*100vw/1920);
 }
 
 #btn12 {
-    top: 575px;
-    left: 680px;
+    top: calc(575*100vw/1920);
+    left: calc(680*100vw/1920);
 }
 
 #btn13 {
-    top: 845px;
-    left: 549px;
+    top: calc(845*100vw/1920);
+    left: calc(549*100vw/1920);
 }
 
 #btn14 {
-    top: 323px;
-    left: 1050px;
+    top: calc(323*100vw/1920);
+    left: calc(1050*100vw/1920);
 }
 
 #btn15 {
-    top: 826px;
-    left: 670px;
+    top: calc(826*100vw/1920);
+    left: calc(670*100vw/1920);
 }
 
 #btn16{
-    top: 913px;
-    left: 670px;
+    top: calc(913*100vw/1920);
+    left: calc(670*100vw/1920);
 }
 
 #btn17 {
-    top: 557px;
-    left: 1201px;
+    top: calc(557*100vw/1920);
+    left: calc(1201*100vw/1920);
 }
 
 #btn18 {
-    top: 535px;
-    left: 1300px;
+    top: calc(535*100vw/1920);
+    left: calc(1300*100vw/1920);
 }
 
 #btn19 {
-    top: 873px;
-    left: 925px;
+    top: calc(873*100vw/1920);
+    left: calc(925*100vw/1920);
 }
 
 #btn20 {
-    top: 358px;
-    left: 1185px;
+    top: calc(358*100vw/1920);
+    left: calc(1185*100vw/1920);
 }
 #btn27 {
-    top: 397px;
-    left: 1276px;
+    top: calc(397*100vw/1920);
+    left: calc(1276*100vw/1920);
 }
 
 
 /*****25******/
 #btn25 {
-    top: 855px;
-    left: 80px;
+    top: calc(855*100vw/1920);
+    left:calc( 80*100vw/1920);
 }
 #btn26 {
-    top: 890px;
-    left: 420px;
+    top: calc(890*100vw/1920);
+    left: calc(420*100vw/1920);
 }
 #btn21 {
-    top: 1003px;
-    left: 1015px;
+    top: calc(1003*100vw/1920);
+    left: calc(1015*100vw/1920);
 }
 
 
 /*-----22-----*/
 #btn22 {
-    top: 867px;
-    left: 1485px;
+    top: calc(867*100vw/1920);
+    left: calc(1485*100vw/1920);
 }
 #btn23 {
-    top: 950px;
-    left: 1443px;
+    top: calc(950*100vw/1920);
+    left: calc(1443*100vw/1920);
 }
 #btn24 {
-    top: 789px;
-    left: 291px;
+    top: calc(789*100vw/1920);
+    left: calc(291*100vw/1920);
 }
 
 
@@ -260,162 +260,162 @@ body {
 }
 
 #object-template1 {
-    width: 100px;
-    top: 327px;
-    left: 753px;
+    width: calc(100*100vw/1920);
+    top: calc(327*100vw/1920);
+    left: calc(753*100vw/1920);
 }
 #object-template2 {
-    width: 150px;
-    top: 637px;
-    left: 331px;
+    width: calc(150*100vw/1920);
+    top: calc(637*100vw/1920);
+    left: calc(331*100vw/1920);
 }
 #object-template3 {
-    width: 214px;
-    top: 166px;
-    left: 1233px;
+    width: calc(214*100vw/1920);
+    top: calc(166*100vw/1920);
+    left: calc(1233*100vw/1920);
 }
 #object-template4 {
-    width: 267px;
-    top: 825px;
-    left: 1329px;
+    width: calc(267*100vw/1920);
+    top: calc(825*100vw/1920);
+    left: calc(1329*100vw/1920);
 }
 #object-template5 {
-    width: 118px;
-    top: 352px;
-    left: 1239px;
+    width: calc(118*100vw/1920);
+    top: calc(352*100vw/1920);
+    left: calc(1239*100vw/1920);
 }
 #object-template6 {
-    width: 145px;
-    top: 763px;
-    left: 613px;
+    width: calc(145*100vw/1920);
+    top: calc(763*100vw/1920);
+    left: calc(613*100vw/1920);
 }
 #object-template6 .hide{
-    width: 157px;
+    width: calc(157*100vw/1920);
 }
 #object-template7 {
-    width: 100px;
-    top: 940px;
-    left: 797px;
+    width: calc(100*100vw/1920);
+    top: calc(940*100vw/1920);
+    left: calc(797*100vw/1920);
 }
 #object-template8 {
-    width: 556px;
-    top: 567px;
-    left: 1295px;
+    width: calc(556*100vw/1920);
+    top: calc(567*100vw/1920);
+    left: calc(1295*100vw/1920);
 }
 #object-template9 {
-    width: 176px;
-    top: 638px;
-    left: 184px;
+    width: calc(176*100vw/1920);
+    top: calc(638*100vw/1920);
+    left: calc(184*100vw/1920);
 }
 #object-template10 {
-    width: 216px;
-    top: 136px;
-    left: 123px;
+    width: calc(216*100vw/1920);
+    top: calc(136*100vw/1920);
+    left: calc(123*100vw/1920);
 }
 #object-template11 {
-    width: 252px;
-    top: 611px;
-    left: 702px;
+    width: calc(252*100vw/1920);
+    top: calc(611*100vw/1920);
+    left: calc(702*100vw/1920);
 }
 #object-template11 .hide{
-    width: 286px;
-    top: -151px;
-    left: -15px;
+    width: calc(286*100vw/1920);
+    top: calc(-151*100vw/1920);
+    left: calc(-15*100vw/1920);
 }
 #object-template12 {
-    width: 33px;
-    top: 627px;
-    left: 696px;
+    width: calc(33*100vw/1920);
+    top: calc(627*100vw/1920);
+    left: calc(696*100vw/1920);
 }
 #object-template13 {
-    width: 284px;
-    top: 892px;
-    left: 502px;
+    width: calc(284*100vw/1920);
+    top: calc(892*100vw/1920);
+    left: calc(502*100vw/1920);
 }
 #object-template14 {
-    width: 69px;
-    top: 338px;
-    left: 978px;
+    width:calc(69*100vw/1920);
+    top: calc(338*100vw/1920);
+    left: calc(978*100vw/1920);
 }
 #object-template15 {
-    width: 284px;
-    top: 892px;
-    left: 502px;
+    width: calc(284*100vw/1920);
+    top: calc(892*100vw/1920);
+    left: calc(502*100vw/1920);
 }
 #object-template16 {
-    width: 276px;
-    top: 885px;
-    left: 494px;
+    width: calc(276*100vw/1920);
+    top: calc(885*100vw/1920);
+    left: calc(494*100vw/1920);
 }
 #object-template17 {
-    width: 226px;
-    top: 640px;
-    left: 1149px;
+    width: calc(226*100vw/1920);
+    top: calc(640*100vw/1920);
+    left: calc(1149*100vw/1920);
 }
 #object-template17 .hide{
-    width: 145px;
-    top: -117px;
-    left: 50;
+    width: calc(145*100vw/1920);
+    top: calc(-117*100vw/1920);
+    left: calc(35*100vw/1920);
 }
 #object-template18 {
-    width: 33px;
-    top: 588px;
-    left: 1282px;
+    width: calc(33*100vw/1920);
+    top: calc(588*100vw/1920);
+    left: calc(1282*100vw/1920);
 }
 #object-template19 {
-    width: 237px;
-    top: 953px;
-    left: 899px;
+    width: calc(237*100vw/1920);
+    top: calc(953*100vw/1920);
+    left: calc(899*100vw/1920);
     z-index: 10;
 }
 #object-template19 .hide{
-    width: 218px;
+    width: calc(218*100vw/1920);
 }
 #object-template20 {
-    width: 65px;
-    top: 411px;
-    left: 1147px;
+    width:calc(65*100vw/1920);
+    top: calc(411*100vw/1920);
+    left: calc(1147*100vw/1920);
 }
 #object-template21 {
-    width: 160px;
-    top: 907px;
-    left: 915px;
+    width: calc(160*100vw/1920);
+    top: calc(907*100vw/1920);
+    left: calc(915*100vw/1920);
     
 }
 #object-template21 .hide{
-    width: 135px;
+    width: calc(135*100vw/1920);
 }
 #object-template22 {
-    width: 223px;
-    top: 924px;
-    left: 1449px;
+    width: calc(223*100vw/1920);
+    top: calc(924*100vw/1920);
+    left: calc(1449*100vw/1920);
 }
 #object-template22 .hide{
-    width: 103px;
-    left: 57px;
+    width: calc(103*100vw/1920);
+    left: calc(57*100vw/1920);
 }
 #object-template23 {
-    width: 71px;
-    top: 984px;
-    left: 1476px;
+    width: calc(71*100vw/1920);
+    top: calc(984*100vw/1920);
+    left: calc(1476*100vw/1920);
 }
 #object-template24 {
-    width: 548px;
-    top: 912px;
-    left: 33px;
+    width: calc(548*100vw/1920);
+    top: calc(912*100vw/1920);
+    left: calc(33*100vw/1920);
 }
 #object-template25 {
-    width: 548px;
-    top: 912px;
-    left: 18px;
+    width: calc(548*100vw/1920);
+    top: calc(912*100vw/1920);
+    left: calc(18*100vw/1920);
 }
 #object-template26 {
-    width: 548px;
-    top: 912px;
-    left: 18px;
+    width: calc(548*100vw/1920);
+    top: calc(912*100vw/1920);
+    left: calc(18*100vw/1920);
 }
 #object-template27 {
-    width: 153px;
-    top: 459px;
-    left: 1222px;
+    width: calc(153*100vw/1920);
+    top: calc(459*100vw/1920);
+    left: calc(1222*100vw/1920);
 }
